@@ -9,7 +9,7 @@ const AllExpenses = () => {
     <ExpensesOutput
       expenses={expensesCtx.expenses}
       expesesPeriod="total"
-      fallbackText="No registered expenses found !"
+      fallbackText="No registered expenses found !!"
     />
   );
 };
