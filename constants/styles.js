@@ -12,6 +12,7 @@ export const GlobalStyles = {
       error500: '#9b095c',
       gray500: '#39324a',
       gray700: '#221c30',
-      myBg : '#e78cc9'
+      myBg : '#e78cc9',
+      myColor : '#9b095c',
     },
   };
