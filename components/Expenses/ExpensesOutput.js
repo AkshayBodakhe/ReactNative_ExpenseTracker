@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     backgroundColor: GlobalStyles.colors.myBg,
   },
   infoText : {
-    color : 'white',
+    color : 'darkred',
     fontSize : 16,
     textAlign : 'center',
     margin : 32

@@ -94,6 +94,7 @@ const ExpenseForm = ({
           inValid = {!inputs.date.isValid}
           textInputConfig={{
             placeholder: 'YYYY-MM-DD',
+            keyboardType: 'decimal-pad',
             maxLength: 10,
             onChangeText: inputChangeHandler.bind(this, 'date'),
             value: inputs.date.value,

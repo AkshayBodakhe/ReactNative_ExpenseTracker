@@ -4,7 +4,8 @@ export const GlobalStyles = {
       primary100: '#c6affc',
       primary200: '#a281f0',
       primary400: '#5721d4',
-      primary500: '#d60880',
+      // primary500: '#0838d6',
+      primary500: '#2d3d4d',
       primary700: '#2d0689',
       primary800: '#200364',
       accent500: '#f7bc0c',
@@ -12,7 +13,7 @@ export const GlobalStyles = {
       error500: '#9b095c',
       gray500: '#39324a',
       gray700: '#221c30',
-      myBg : '#e78cc9',
+      myBg : 'white',
       myColor : '#9b095c',
     },
   };

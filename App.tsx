@@ -19,9 +19,11 @@ function ExpensesOverview() {
   return (
     <BottomTabs.Navigator
       screenOptions={({navigation}) => ({
-        headerStyle: {backgroundColor: GlobalStyles.colors.primary500},
+        // headerStyle: {backgroundColor: GlobalStyles.colors.primary500},
+        headerStyle: {backgroundColor: 'purple'},
         headerTintColor: 'white',
-        tabBarStyle: {backgroundColor: GlobalStyles.colors.primary500},
+        // tabBarStyle: {backgroundColor: GlobalStyles.colors.primary500},
+        tabBarStyle: {backgroundColor: 'purple'},
         tabBarActiveTintColor: GlobalStyles.colors.accent500,
         headerRight: ({tintColor}) => (
           <IconButton
@@ -63,7 +65,7 @@ function ExpensesOverview() {
 const App = () => {
   return (
     <>
-      <StatusBar barStyle={'light-content'}/>
+      <StatusBar barStyle={'light-content'} />
       <ExpensesContextProvider>
         <NavigationContainer>
           <Stack.Navigator
